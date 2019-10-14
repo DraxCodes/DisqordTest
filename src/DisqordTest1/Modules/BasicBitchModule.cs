@@ -1,5 +1,5 @@
-﻿using Disqord.Bot;
-using Qmmands;
+﻿using Qmmands;
+using Disqord.Bot;
 using System.Threading.Tasks;
 
 namespace DisqordTest1.Modules

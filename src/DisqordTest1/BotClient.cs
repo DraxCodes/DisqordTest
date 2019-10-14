@@ -2,17 +2,17 @@
 using Disqord;
 using Disqord.Bot;
 using Disqord.Logging;
+using System.Threading;
 using System.Reflection;
 using DisqordTest1.Services;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using System.Threading;
 
 namespace DisqordTest1
 {
     public class BotClient
     {
-        private readonly string _Token = "MY_SUPER_SECRET_TOKEN";
+        private readonly string _Token = "SUPER_SECRET";
         public async Task Initialise(CancellationToken cancellationToken)
         {
             var disqordConfig = new DiscordBotConfiguration
